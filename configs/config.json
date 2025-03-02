@@ -1,0 +1,9 @@
+{
+    "method": "ddim",
+    "a": 0.0,
+    "c": 0.0,
+    "cfg_scale": 7.5,
+    "version": "v1",
+    "seed": 42,
+    "num_sampling": 50
+}
