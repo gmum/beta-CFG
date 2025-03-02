@@ -1,7 +1,8 @@
 # Classifier-free Guidance with Adaptive Scaling
 
 
-[![arXiv](https://img.shields.io/badge/arXiv-2406.08070-b31b1b.svg)](https://arxiv.org/abs/2406.08070)
+[![arXiv](https://img.shields.io/badge/arXiv-2502.10574-b31b1b.svg)](https://arxiv.org/abs/2502.10574)
+
 
 > Classifier-free guidance (CFG) is an essential mechanism in contemporary text-driven diffusion models. In practice, in controlling the impact of guidance we can see the trade-off between the quality of the generated images and correspondence to the prompt. When we use strong guidance, generated images fit the conditioned text perfectly but at the cost of their quality. Dually, we can use small guidance to generate high-quality results, but the generated images do not suit our prompt. In this paper, we present β-CFG (β-adaptive scaling in Classifier-Free Guidance), which controls the impact of guidance during generation to solve the above trade-off. First, β-CFG stabilizes the effects of guiding by gradient-based adaptive normalization. Second, β-CFG uses the family of single-modal (β-distribution), time-dependent curves to dynamically adapt the trade-off between prompt matching and the quality of samples during the diffusion denoising process. Our model obtained better FID scores, maintaining the text-to-image CLIP similarity scores at a level similar to that of the reference CFG.
 
